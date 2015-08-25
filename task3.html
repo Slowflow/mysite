@@ -9,21 +9,23 @@
         <fieldset>
         <legend>Contact form</legend>
         <p>Name
-        <input type="text" name="username" size="15"/>
+        <input type="text" required="required"/>
         </p>
         <p>Email
-        <input type="email" size="15" name="email" required "pattern="[A-Za-z] {0-9}{4}"
+        <input type="email" name="email" 
         title="Enter your email" />
         </p>
         <p>Phone
-        <input type="telephone" name="phone" size="15"/>
+        <input type="telephone" name="phone" 
+        title="Enter your phone in form +380"/>
         </p>
         <p>Questions or your comments
         <br/>
-        <input type="text" name="comments"/>
+        <input type="text" />
          </p>
-        <input type="submit" name="submit"/>
+        <input type="submit" value="Submit" />
     </fieldset>
+    
     </body>
     
     </html>
