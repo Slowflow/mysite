@@ -20,7 +20,7 @@ body {
     height: 67px; 
     float:left; 
     background-color: #f26c4f; 
-    background-image: url('/images/g.png'); 
+    background-image: url('images/g.png'); 
     background-position: center;
     
 }
