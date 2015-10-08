@@ -20,29 +20,21 @@ body {
     height: 67px; 
     float:left; 
     background-color: #f26c4f; 
-    background-image: url('images/g.png'); 
+    background-image: url('/images/g.png'); 
     background-position: center;
+    
 }
 
 .header .wrapper .text {
-    padding:24px;
+    padding:23px;
     float:left;
     color:#e4e4e4;
-    font-size:15px;
+    font-size:18px;
 }
 .header .wrapper .drop-down {
     float: right; 
-    height: 37px;
-    width: 142px;
-    margin: 14px 246px 5px 5px;
+    height: 36px; 
+    width: 142px; 
+    margin: 14px 0px 5px 58px;
     background-color:white;
-    
-}
-.header .wrapper .drop-up {
-    float: right; 
-    height: 37px;
-    width: 142px;
-    margin: 14px 58px 5px 5px;
-    background-color: white;
-    
 }
